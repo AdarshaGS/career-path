@@ -1,0 +1,12 @@
+{
+  "name": "ACP",
+  "main": "index.html",
+  "authors": [
+    "Adarsha GS)"
+  ],
+  "description": "Career Path ",
+  "license": "",
+  "dependencies": {
+    "d3": "3.5.16"
+  }
+}

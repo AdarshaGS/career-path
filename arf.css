@@ -1,0 +1,249 @@
+body {
+  font-size: 17px;
+  font-family: "Helvetica Neue", Helvetica;
+}
+#main{
+  background-color: #B4C7E7;
+  background-repeat: no-repeat;
+}
+#main::-webkit-scrollbar{
+  display: none;
+}
+
+#body {
+  margin: 0 auto;
+  position: relative;
+}
+
+#header {
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  top: 2px;
+  bottom: 10px;
+  margin-left: 35%;
+}
+
+.navigation{
+  margin-top: 0.5rem;
+}
+
+.navul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #4472C4;
+}
+li.navbarlinks{
+  display: inline;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+li.nav-bar-links{
+  display: inline;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.nav-bar{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: #4472C4;
+  display: inline-block;
+  padding: 8px;
+}
+
+.nav-bar:hover{
+  text-decoration: none;
+  color: #000;
+}
+
+.active{
+  color: black;
+  cursor: no-drop;
+}
+
+#myInput{
+  margin: 0.5rem 2rem 0.5rem 0;
+  padding: 0.5rem;
+  font-size: 12px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  width: 930px;
+  border-radius: 10px;
+  cursor: text;
+  text-indent: 1rem; 
+  outline: none;
+}
+
+
+
+/* Books image */
+.BooksImage{
+  width: 300px;
+  margin: 1rem 0 1rem 2.5rem ;
+  border-radius: 10px;
+  float: left;
+}
+
+.legend {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 330px;
+  font-size: 14px;
+  color: #000;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  cursor: pointer;
+  fill: #ffffff83;
+  stroke: rgb(3, 127, 250);
+  stroke-width: 2px;
+}
+
+.node text {
+  font-size: 21px;
+  fill: rgb(0, 0, 0);
+}
+
+path.link {
+  fill: none;
+  stroke: #11324D;
+  stroke-width: 1px;
+}
+.instructions{
+  margin-right: 200px;  
+  margin-left: 30rem;
+  margin-top: 2rem;
+  background-color: #ecf1f9;
+  border-radius: 1.5rem;
+  padding: 10px;
+}
+.website-description{
+  margin: 5px 0 5px 1rem;
+}
+div.resources-links{
+  margin-right: 200px;  
+  margin-left: 30rem;
+  margin-top: 2rem;
+  background-color: #ecf1f9;
+  border-radius: 1.5rem;
+  padding: 10px;
+}
+.resources-a-links{
+  color: black;
+}
+/* resouces Description */
+.res-description{
+  margin: 0 0 0 1rem;
+}
+
+/* search bar functionality */
+* {
+  box-sizing: border-box;
+}
+
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  width: 60%;
+  border: 1px solid #ddd;
+  margin-top: -1px 0 0 40%; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+.careerandabout{
+  display: inline-block;
+  margin-right: 2rem;
+}
+/* dropdown */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 10px;
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #B4C7E7}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .nav-bar {
+  background-color: #4472C4;
+}
+
+/* footer */
+.footer-links{
+  text-decoration: none;
+  width: 100%;
+  color: white;
+  margin: 1rem 0 0 10rem;
+ 
+}
+.footer-list{
+  list-style-type: none;
+  display: inline-block;
+  margin: 0.3rem 0 0 0;
+  padding: 0;
+
+}
+.footer{
+  background-color: #4472C4;
+  margin: 19.5rem 0 0 0;
+  padding: 1px;
+}
+.footer-links:hover{
+  text-decoration: none;
+  color: black;
+}
